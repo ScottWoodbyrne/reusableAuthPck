@@ -7,7 +7,7 @@ Quick start -----------
 
 
 2. Add these two settings to your projects settings.py:
-    AUTH_USER_MODEL = 'reuseable_auth.User'
+    AUTH_USER_MODEL = 'reusable_auth.User'
     AUTHENTICATION_BACKENDS = ('django.contrib.auth.backends.ModelBackend', 'reusable_auth.backends.EmailAuth',)
 
 
